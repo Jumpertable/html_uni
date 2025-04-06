@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: solid black
+}
+
+body{
+    height: 1500px;
+    width: 100vw;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  /*line-height: 100px;*/  
+}
+
+.box1 {
+    position: relative;
+    background: blue;  
+    right: 0px;
+    bottom: 0px;  
+}
+.box2 {
+    background: red;
+}
+
+span{
+    position: relative;
+    right: 2px;
+    bottom: 2px;
+}
+
+.box3{
+    position: fixed;
+    background: green;
+    bottom: 50%;
+    right: 45%;
+}
+.box4{
+    position: sticky;
+    background: yellow;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.box5{
+    position: absolute;
+    background: pink;
+    border-radius: 100px;
+    top: -50px;
+    left: 45%;
+}

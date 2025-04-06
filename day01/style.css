@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    
+    box-sizing:  border-box;
+}
+header {
+  color: red;
+}
+
+.big-text {
+  font-size: 12rem;
+}
+
+.left-15{
+    margin-left: 100px
+}
+
+#border{
+    border: 5px solid
+    black
+}
+
+.my-text{
+    font-size: 2rem;
+    border: 2px solid black;
+    box-shadow: 3px 2px 5px;
+    margin: auto;
+    padding: 1em 2em;
+    background: lightblue;
+    border-radius: 7px;
+
+    color: green;
+    text-transform: uppercase;
+    text-shadow: 3px 4px 5px;
+}
+
+    .box1{
+        width: 111px;
+        height: 111px;
+        background: rebeccapurple;
+        color: white;
+        text-align: center;
+        line-height: 111px;
+        border: 10px solid salmon;
+    }
+
+    
+    
+
+
+

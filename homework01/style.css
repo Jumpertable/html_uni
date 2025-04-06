@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+.text-red {
+  color: red;
+  font-weight: bold;
+}
+
+.container {
+   font-family: "Poppins", sans-serif;
+}
+
+h1,
+h3 {
+  color: red;
+}
+
+h4,
+p {
+  margin: 1px;
+}
+
+section {
+  border: 3px solid rgb(253, 172, 172);
+  background: rgb(245, 201, 201);
+  margin-bottom: 2px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.container_box {
+  position: relative;
+  width: 50%;
+  height: 300px;
+}
+
+div {
+    color: whitesmoke;
+  text-align: center;
+  line-height: 50px;
+  box-sizing: border-box;
+  position: absolute;
+  padding: 1rem 2rem;
+}
+
+.box1 {
+  background: red; 
+  top: 4%;
+  left: 10px;  
+}
+.box2 {
+  background: blue;
+  top: 4%;
+  right: 1%;
+}
+.box3 {
+  background: yellow;
+  bottom: 4%;
+  left: 1%;
+}
+.box4 {
+  background: green;
+  bottom: 4%;
+  right: 1%;
+}
+
+
